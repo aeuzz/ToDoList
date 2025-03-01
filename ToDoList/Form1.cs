@@ -230,7 +230,7 @@ namespace ToDoList
         private void frmToDoList_FormClosing(object sender, FormClosingEventArgs e)
         {
             SaveTasks();
-            SaveTheme();
+           // SaveTheme();             // if you want to keep the last saved background after exiting the app uncomment this method
         }
 
        
